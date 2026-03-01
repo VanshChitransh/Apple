@@ -3,6 +3,7 @@ import Navbar from "./component/Navbar"
 import ProductViewer from "./component/ProductViewer"
 import gsap from 'gsap';
 import { ScrollTrigger } from "gsap/all";
+import ShowCase from "./component/ShowCase";
 gsap.registerPlugin(ScrollTrigger);
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <Navbar/>
       <Hero/>
       <ProductViewer/>
+      <ShowCase/>
     </div>
   )
 }
